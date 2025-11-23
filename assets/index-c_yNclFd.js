@@ -186,7 +186,7 @@ Error generating stack: `+u.message+`
  * @license
  * Copyright 2025 Google LLC
  * SPDX-License-Identifier: Apache-2.0
- */const Jm="x-goog-api-key";class qC{constructor(n){this.apiKey=n}async addAuthHeaders(n,o){if(n.get(Jm)===null){if(this.apiKey.startsWith("auth_tokens/"))throw new Error("Ephemeral tokens are only supported by the live API.");if(!this.apiKey)throw new Error("API key is missing. Please provide a valid API key.");n.append(Jm,this.apiKey)}}}/**
+ */const Jm="x-goog-api-key";class qC{constructor(n){this.apiKey=AIzaSyCqp9GYsyj8rIb_OPwzFGzlEF6s9h5lq_s}async addAuthHeaders(n,o){if(n.get(Jm)===null){if(this.apiKey.startsWith("auth_tokens/"))throw new Error("Ephemeral tokens are only supported by the live API.");if(!this.apiKey)throw new Error("API key is missing. Please provide a valid API key.");n.append(Jm,this.apiKey)}}}/**
  * @license
  * Copyright 2025 Google LLC
  * SPDX-License-Identifier: Apache-2.0
